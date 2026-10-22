@@ -1,0 +1,44 @@
+{
+  "math": {
+    "alias": "математика",
+    "desc": "Математика / Math",
+    "path": "math_lib.py",
+    "enabled": true
+  },
+  "random": {
+    "alias": "случайное",
+    "desc": "Случайные числа / Random",
+    "path": "random_lib.py",
+    "enabled": true
+  },
+  "time": {
+    "alias": "время",
+    "desc": "Время и дата / Time",
+    "path": "time_lib.py",
+    "enabled": true
+  },
+  "system": {
+    "alias": "система",
+    "desc": "Файлы и папки / Files",
+    "path": "system_lib.py",
+    "enabled": true
+  },
+  "gui": {
+    "alias": "окна",
+    "desc": "Приложения / GUI (tkinter)",
+    "path": "gui_lib.py",
+    "enabled": true
+  },
+  "web": {
+    "alias": "веб",
+    "desc": "Сайты / Web (Flask)",
+    "path": "web_lib.py",
+    "enabled": true
+  },
+  "game": {
+    "alias": "игра",
+    "desc": "Игры / Games (turtle)",
+    "path": "game_lib.py",
+    "enabled": true
+  }
+}

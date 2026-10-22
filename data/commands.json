@@ -1,0 +1,297 @@
+{
+  "print": {
+    "alias": "печать",
+    "desc": "Вывести в консоль",
+    "kind": "builtin"
+  },
+  "input": {
+    "alias": "ввод",
+    "desc": "Прочитать строку",
+    "kind": "builtin"
+  },
+  "len": {
+    "alias": "длина",
+    "desc": "Длина",
+    "kind": "builtin"
+  },
+  "range": {
+    "alias": "диапазон",
+    "desc": "Диапазон чисел",
+    "kind": "builtin"
+  },
+  "sum": {
+    "alias": "сумма",
+    "desc": "Сумма списка",
+    "kind": "builtin"
+  },
+  "min": {
+    "alias": "минимум",
+    "desc": "Минимум",
+    "kind": "builtin"
+  },
+  "max": {
+    "alias": "максимум",
+    "desc": "Максимум",
+    "kind": "builtin"
+  },
+  "sorted": {
+    "alias": "сортировано",
+    "desc": "Сортировка",
+    "kind": "builtin"
+  },
+  "str": {
+    "alias": "строка",
+    "desc": "В строку",
+    "kind": "builtin"
+  },
+  "int": {
+    "alias": "целое",
+    "desc": "В целое",
+    "kind": "builtin"
+  },
+  "float": {
+    "alias": "дробь",
+    "desc": "В дробное",
+    "kind": "builtin"
+  },
+  "bool": {
+    "alias": "булево",
+    "desc": "В логическое",
+    "kind": "builtin"
+  },
+  "list": {
+    "alias": "список",
+    "desc": "Создать список",
+    "kind": "builtin"
+  },
+  "dict": {
+    "alias": "словарь",
+    "desc": "Создать словарь",
+    "kind": "builtin"
+  },
+  "tuple": {
+    "alias": "кортеж",
+    "desc": "Создать кортеж",
+    "kind": "builtin"
+  },
+  "set": {
+    "alias": "множество",
+    "desc": "Создать множество",
+    "kind": "builtin"
+  },
+  "abs": {
+    "alias": "модуль",
+    "desc": "Модуль числа",
+    "kind": "builtin"
+  },
+  "type": {
+    "alias": "тип",
+    "desc": "Тип значения",
+    "kind": "builtin"
+  },
+  "open": {
+    "alias": "открыть",
+    "desc": "Открыть файл",
+    "kind": "builtin"
+  },
+  "enumerate": {
+    "alias": "синумером",
+    "desc": "Индексы + значения",
+    "kind": "builtin"
+  },
+  "zip": {
+    "alias": "склеить",
+    "desc": "Склеить итераторы",
+    "kind": "builtin"
+  },
+  "map": {
+    "alias": "преобразить",
+    "desc": "Преобразовать",
+    "kind": "builtin"
+  },
+  "filter": {
+    "alias": "отфильтровать",
+    "desc": "Отфильтровать",
+    "kind": "builtin"
+  },
+  "any": {
+    "alias": "любой",
+    "desc": "Хоть один True",
+    "kind": "builtin"
+  },
+  "all": {
+    "alias": "каждый",
+    "desc": "Все True",
+    "kind": "builtin"
+  },
+  "round": {
+    "alias": "округли",
+    "desc": "Округлить",
+    "kind": "builtin"
+  },
+  "pow": {
+    "alias": "степень",
+    "desc": "Возвести в степень",
+    "kind": "builtin"
+  },
+  "chr": {
+    "alias": "символ",
+    "desc": "Код → символ",
+    "kind": "builtin"
+  },
+  "ord": {
+    "alias": "кодсимвола",
+    "desc": "Символ → код",
+    "kind": "builtin"
+  },
+  "isinstance": {
+    "alias": "является",
+    "desc": "Проверка типа",
+    "kind": "builtin"
+  },
+  "if": {
+    "alias": "если",
+    "desc": "Условие",
+    "kind": "keyword"
+  },
+  "elif": {
+    "alias": "иначеесли",
+    "desc": "Иначе если",
+    "kind": "keyword"
+  },
+  "else": {
+    "alias": "иначе",
+    "desc": "Иначе",
+    "kind": "keyword"
+  },
+  "while": {
+    "alias": "пока",
+    "desc": "Цикл с условием",
+    "kind": "keyword"
+  },
+  "for": {
+    "alias": "для",
+    "desc": "Цикл по элементам",
+    "kind": "keyword"
+  },
+  "in": {
+    "alias": "в",
+    "desc": "Вхождение",
+    "kind": "keyword"
+  },
+  "def": {
+    "alias": "функция",
+    "desc": "Объявление функции",
+    "kind": "keyword"
+  },
+  "return": {
+    "alias": "вернуть",
+    "desc": "Вернуть значение",
+    "kind": "keyword"
+  },
+  "break": {
+    "alias": "стоп",
+    "desc": "Выйти из цикла",
+    "kind": "keyword"
+  },
+  "continue": {
+    "alias": "дальше",
+    "desc": "Следующая итерация",
+    "kind": "keyword"
+  },
+  "pass": {
+    "alias": "пропуск",
+    "desc": "Ничего не делать",
+    "kind": "keyword"
+  },
+  "and": {
+    "alias": "и",
+    "desc": "Логическое И",
+    "kind": "keyword"
+  },
+  "or": {
+    "alias": "или",
+    "desc": "Логическое ИЛИ",
+    "kind": "keyword"
+  },
+  "not": {
+    "alias": "не",
+    "desc": "Логическое НЕ",
+    "kind": "keyword"
+  },
+  "True": {
+    "alias": "Истина",
+    "desc": "Истина",
+    "kind": "keyword"
+  },
+  "False": {
+    "alias": "Ложь",
+    "desc": "Ложь",
+    "kind": "keyword"
+  },
+  "None": {
+    "alias": "Ничто",
+    "desc": "Пустое значение",
+    "kind": "keyword"
+  },
+  "import": {
+    "alias": "подключить",
+    "desc": "Подключить библиотеку",
+    "kind": "keyword"
+  },
+  "from": {
+    "alias": "из",
+    "desc": "Импорт из модуля",
+    "kind": "keyword"
+  },
+  "as": {
+    "alias": "как",
+    "desc": "Псевдоним",
+    "kind": "keyword"
+  },
+  "class": {
+    "alias": "класс",
+    "desc": "Класс",
+    "kind": "keyword"
+  },
+  "try": {
+    "alias": "попробовать",
+    "desc": "Блок try",
+    "kind": "keyword"
+  },
+  "except": {
+    "alias": "поймать",
+    "desc": "Обработчик ошибки",
+    "kind": "keyword"
+  },
+  "finally": {
+    "alias": "вконце",
+    "desc": "Выполнить в конце",
+    "kind": "keyword"
+  },
+  "with": {
+    "alias": "используя",
+    "desc": "Контекстный менеджер",
+    "kind": "keyword"
+  },
+  "lambda": {
+    "alias": "лямбда",
+    "desc": "Анонимная функция",
+    "kind": "keyword"
+  },
+  "yield": {
+    "alias": "уступить",
+    "desc": "Генератор",
+    "kind": "keyword"
+  },
+  "global": {
+    "alias": "глобально",
+    "desc": "Глобальная область",
+    "kind": "keyword"
+  },
+  "del": {
+    "alias": "удалить",
+    "desc": "Удалить",
+    "kind": "keyword"
+  }
+}

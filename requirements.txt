@@ -1,0 +1,5 @@
+flask
+pyTelegramBotAPI
+discord.py
+vk-api
+pyinstaller
